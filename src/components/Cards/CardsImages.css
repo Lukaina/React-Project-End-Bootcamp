@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+.cards-images {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Image {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 30px;
+    height: 400px;
+    width: 25%;
+}
+
+.Image img {
+    height: 90%;
+    width: 93%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 7px 10px 8px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 10px 8px 1px rgba(0,0,0,0.75);
+    box-shadow: 7px 10px 8px 1px rgba(0,0,0,0.75);
+}
+
+    .Image img:hover {
+        filter: opacity(.7);
+    }
+
+.Image button {
+    align-self: center;
+    height: 13%;
+    width: 55%;
+    background-image:linear-gradient(90deg,#00C0FF 0,#FFCF00 49%,#FC4F4F 80%,#00C0FF 100%);
+    border-radius: 50px;
+    margin-top: 20px;
+    font-family: 'Acme', sans-serif;
+    font-size: 2vw;
+    font-weight:700;
+    padding: 8px;
+}
+
+    .Image button:after {
+        content:attr(alt);
+        width:20vw;
+        height:8vw;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .Image button:hover {
+    animation:slidebg 2s linear infinite;
+    -webkit-animation:slidebg 2s linear infinite;
+    }
+
+@keyframes slidebg{to{background-position:20vw}}

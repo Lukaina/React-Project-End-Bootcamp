@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Satisfy&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('https://i.pinimg.com/474x/ba/5d/7c/ba5d7ceb608254110ea1a428d8788133.jpg');
+    background-size: cover;
+}

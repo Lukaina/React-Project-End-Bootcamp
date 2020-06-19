@@ -1,0 +1,89 @@
+.container {
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: 30px auto;
+    background-image: linear-gradient(60deg, #a8d7fd 0%, #e4e66f 100%);
+    -webkit-box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);
+    -moz-box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);
+    box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);
+    border-radius: 8px;
+}
+
+.menu {
+    width: 850px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+    height: 100%;
+}
+
+.menu__list {
+    list-style-type: none;
+    padding: 0;
+    height: 100%;
+    margin: 10;
+    margin-right: -100px;
+}
+
+.menu__list-item {
+    display: inline-block;
+    height: 100%;
+    margin-right: -10px;
+}
+
+.menu__list-item:last-child {
+    margin-right: 0;
+}
+
+.menu__link {
+    color: #3a3e47;
+    height: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Acme', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+    margin-right: 25px;
+}
+
+.menu__link:hover {
+    color: #000;
+    border-bottom: 4px solid #000;
+}
+
+.menu__link--active {
+    color: #929396;
+    font-weight: 700;
+}
+
+.logo {
+    color: black;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    width: 250px;
+    height: 100%;
+}
+
+.icons-contact {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  height: 100%;
+}
+
+.icons-contact svg {
+    font-size: 1.8rem;
+}
+
+
