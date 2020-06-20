@@ -1,10 +1,14 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 function CardImage(props) {
+    const history = useHistory();
+
     return (
         <div className="Image">
             <img src={props.src} alt={props.alt} />
-            <button>{props.buttonLabel}</button>
+            <button onClick={ () => history.push(props.path) }>
+            {props.buttonLabel}</button>
         </div>
     );
 }

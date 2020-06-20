@@ -13,13 +13,13 @@ class CardsDisfraz extends React.Component {
     render () {
         return(
             <div className="cards-images">
-                    <CardImage buttonLabel="Bebé" src={img1} alt="Imagen disfraces de bebé." />
-                    <CardImage buttonLabel="Niño" src={img2} alt="Imagen disfraces de niño." />
-                    <CardImage buttonLabel="Niña" src={img3} alt="Imagen disfraces de niña." />
-                    <CardImage buttonLabel="Mujer" src={img4} alt="Imagen disfraces de mujer." />
-                    <CardImage buttonLabel="Parejas" src={img5} alt="Imagen disfraces de parejas." />
-                    <CardImage buttonLabel="Hombre" src={img6} alt="Imagen disfraces de hombre." />
-                    <CardImage buttonLabel="Familia" src={img7} alt="Imagen disfraces de familia." />
+                    <CardImage buttonLabel="Bebé" src={img1} alt="Imagen disfraces de bebé." path="/bebes" />
+                    <CardImage buttonLabel="Niño" src={img2} alt="Imagen disfraces de niño." path="/ninx" />
+                    <CardImage buttonLabel="Niña" src={img3} alt="Imagen disfraces de niña." path="/ninx" />
+                    <CardImage buttonLabel="Mujer" src={img4} alt="Imagen disfraces de mujer." path="/mujer-hombre" />
+                    <CardImage buttonLabel="Parejas" src={img5} alt="Imagen disfraces de parejas." path="/parejas"/>
+                    <CardImage buttonLabel="Hombre" src={img6} alt="Imagen disfraces de hombre." path="/mujer-hombre"/>
+                    <CardImage buttonLabel="Familia" src={img7} alt="Imagen disfraces de familia." path="familia"/>
             </div>
         );
     }
