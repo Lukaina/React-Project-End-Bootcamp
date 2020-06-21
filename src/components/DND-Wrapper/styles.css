@@ -1,0 +1,14 @@
+.dnd-wrapper {
+    font-family: sans-serif;
+    background-color: lightblue;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .dnd-wrapper > .smooth-dnd-container {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  

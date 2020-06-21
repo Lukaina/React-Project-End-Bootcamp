@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
 import Menu from './components/Menu';
-import ImageSelector from './components/Image-selector';
+import Babies from './Pages/Babies';
 
 export default function Routes() {
     return(
@@ -14,19 +14,19 @@ export default function Routes() {
                         <Home />
                     </Route>
                     <Route exact path="/bebes">
-                        <ImageSelector text="Bebés"/>
+                        <Babies />
                     </Route>
                     <Route exact path="/ninx">
-                        <ImageSelector text="Niño/a"/>
+                        <h1>Niño/a</h1>
                     </Route>
                     <Route exact path="/mujer-hombre">
-                        <ImageSelector text="Mujer/Hombre"/>
+                        <h1>Mujeres-Hombre</h1>
                     </Route>
                     <Route exact path="/parejas">
-                        <ImageSelector text="Parejas"/>
+                        <h1>Parejas</h1>
                     </Route>
                     <Route exact path="/familia">
-                        <ImageSelector text="Familia"/>
+                        <h1>Familia</h1>
                     </Route>
                 </Switch>   
             </div>

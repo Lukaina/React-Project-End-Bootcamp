@@ -1,0 +1,46 @@
+.card {
+    height: 200px;
+    width: 280px;
+    font-size: 0.9rem;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 120px;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: 'image name' 'image size' 'image price' 'image state';
+    padding-right: 5px;
+  }
+
+    .card:hover {
+        cursor: pointer;
+        box-shadow: 0 0 4px 2px rgba(0,0,0,.5);
+    }
+
+  .card__name,
+  .card__size,
+  .card__price,
+  .card__state {
+    border: dashed 1px grey;
+    align-self: center;
+  }
+
+  .card__name {
+      grid-area: name;
+  }
+
+  .card__size {
+    grid-area: size;
+}
+
+.card__price {
+    grid-area: price;
+}
+
+.card__state {
+    grid-area: state;
+}
+
+
+.card__image {
+    grid-area: image;
+    background-size: cover;
+}

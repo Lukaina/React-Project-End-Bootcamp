@@ -1,0 +1,20 @@
+.panel {
+    height: 500px;
+    border: dashed 2px black;
+    width: 300px;
+  }
+  
+  .panel .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .panel .smooth-dnd-container {
+    font-family: sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
