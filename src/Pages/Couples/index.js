@@ -1,50 +1,50 @@
 import React from 'react';
 import DndWrapper from '../../components/DND-Wrapper';
-import Image1 from './bebe1.jpg';
-import Image2 from './bebe2.jpg';
-import Image3 from './bebe3.jpg';
-import Image4 from './bebe4.jpg';
-import Image5 from './bebe5.jpg';
+import Image1 from './parejas1.jpg';
+import Image2 from './parejas2.jpg';
+import Image3 from './parejas3.jpg';
+import Image4 from './parejas4.jpg';
+// import Image5 from './parejas5.jpg';
 
 const items = [
     {
-        name: 'Minnie Mouse',
+        name: 'Árabes',
         size: '0-2 meses',
         price: '$20 mil',
         state: 'Disponible',
         image: Image1
     },
     {
-        name: 'Elefante',
+        name: 'Piratas',
         size: '2-4 meses',
         price: '$25 mil',
         state: 'Disponible',
         image: Image2
     },
     {
-        name: 'Vaquita',
+        name: 'Caperucita & Lobo',
         size: '8-10 meses',
         price: '$30 mil',
         state: 'Disponible',
         image: Image3
     },
     {
-        name: 'Campanita',
+        name: 'Mario & Peach',
         size: '10-1 año',
         price: '$30 mil',
         state: 'Disponible',
         image: Image4
     },
-    {
-        name: 'Pitufo',
-        size: '10-1 año',
-        price: '$28 mil',
-        state: 'Disponible',
-        image: Image5
-    },   
+    // {
+    //     name: 'Pitufo',
+    //     size: '10-1 año',
+    //     price: '$28 mil',
+    //     state: 'Disponible',
+    //     image: Image5
+    // },   
 ]
 
-export default function Babies(){
+export default function Couples(){
     return(
         <DndWrapper items={items}/>
     );
