@@ -3,15 +3,14 @@ import React, { PureComponent } from "react";
 import Panel from "../Panel";
 
 import "./styles.css";
+import "../../categories.model.js";
+import { CATEGORIES, babiesInfo, womanInfo } from "../../categories.model";
 
 export default class DndWrapper extends PureComponent {
     constructor(props) {
         super(props)
-
-        this.state = {
-            leftItems: [...props.items],
-            rightItems: []
-          };
+        console.log('category', props.category);
+        this.loadData(props.category);
     }
 
   onDropCard = (stateName, items) => info => {
@@ -34,6 +33,35 @@ export default class DndWrapper extends PureComponent {
 
     this.setState({ [stateName]: result });
   };
+
+  loadData = (category) => {
+    if(!!category) {
+      switch(category) {
+        case CATEGORIES.BABIES: {
+          this.state = {
+            leftItems: [...babiesInfo],
+            rightItems: []
+          };
+          break;
+        }
+        case CATEGORIES.WOMEN: {
+          this.state = {
+            leftItems: [...womanInfo],
+            rightItems: []
+          };
+          break;
+        }
+        default: {
+          this.state = {
+            leftItems: [...babiesInfo],
+            rightItems: []
+          };
+          break;
+        }
+      }
+    }
+  }
+
 
   render() {
     const { leftItems, rightItems } = this.state;

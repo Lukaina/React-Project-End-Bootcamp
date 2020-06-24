@@ -1,12 +1,14 @@
-import React, { Children } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Home from './Pages/Home';
 import Menu from './components/Menu';
-import Babies from './Pages/Babies';
+// import Babies from './Pages/Babies';
 import Kids from './Pages/Kids';
-import WomanMan from './Pages/Woman-Man';
+// import WomanMan from './Pages/Woman-Man';
 import Couples from './Pages/Couples';
 import Family from './Pages/Family';
+import { CATEGORIES } from './categories.model.js';
+import DndWrapper from './components/DND-Wrapper';
 
 export default function Routes() {
     return(
@@ -18,13 +20,13 @@ export default function Routes() {
                         <Home />
                     </Route>
                     <Route exact path="/bebes">
-                        <Babies />
+                        <DndWrapper category={CATEGORIES.BABIES}/>
                     </Route>
                     <Route exact path="/ninx">
                         <Kids />
                     </Route>
                     <Route exact path="/mujer-hombre">
-                        <WomanMan />
+                        <DndWrapper category={CATEGORIES.WOMEN}/>
                     </Route>
                     <Route exact path="/parejas">
                         <Couples />
