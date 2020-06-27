@@ -10,75 +10,76 @@ import Image7 from './ninx7.jpg';
 import Image8 from './ninx8.jpg';
 import Image9 from './ninx9.jpg';
 import Image10 from './ninx10.jpg';
+import DropdownsBb from './button';
 
 const items = [
     {
         name: 'Superman',
-        size: '6-8',
-        price: '$20 mil',
+        size: 'Talla 6-8',
+        price: '$25 mil',
         state: 'Disponible',
         image: Image1
     },
     {
         name: 'Capitana América',
-        size: '8-10',
+        size: 'Talla 8-10',
         price: '$25 mil',
         state: 'Disponible',
         image: Image2
     },
     {
         name: 'Flash',
-        size: '8-10',
-        price: '$30 mil',
+        size: 'Talla 8-10',
+        price: '$28 mil',
         state: 'Disponible',
         image: Image3
     },
     {
         name: 'Campanita',
-        size: '8-10',
+        size: 'Talla 8-10',
         price: '$30 mil',
         state: 'Disponible',
         image: Image4
     },
     {
         name: 'Ben 10',
-        size: '68 cm',
+        size: 'Talla 10-12',
         price: '$28 mil',
         state: 'Disponible',
         image: Image5
     },
     {
         name: 'Árabe',
-        size: '68 cm',
+        size: 'Talla 12-14',
         price: '$28 mil',
         state: 'Disponible',
         image: Image6
     },
     {
         name: 'Optimus Prime',
-        size: '68 cm',
+        size: 'Talla 8-10',
         price: '$28 mil',
         state: 'Disponible',
         image: Image7
     },
     {
         name: 'Princesa',
-        size: '68 cm',
+        size: 'Talla 8-10',
         price: '$28 mil',
         state: 'Disponible',
         image: Image8
     },
     {
         name: 'Guerrero Lannister',
-        size: '68 cm',
+        size: 'Talla 6-8',
         price: '$28 mil',
         state: 'Disponible',
         image: Image9
     },
     {
         name: 'Pirata',
-        size: '68 cm',
-        price: '$28 mil',
+        size: 'Talla 10-12',
+        price: '$32 mil',
         state: 'Disponible',
         image: Image10
     },               
@@ -86,6 +87,10 @@ const items = [
 
 export default function Kids(){
     return(
-        <DndWrapper items={items}/>
+        <div>
+            <DropdownsBb />
+            <DndWrapper items={items}/>
+        </div>
+        
     );
 }
