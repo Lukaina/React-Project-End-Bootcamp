@@ -10,54 +10,55 @@ import Image7 from './mujer-hombre7.jpg';
 // import Image8 from './mujer-hombre8.jpg';
 // import Image9 from './mujer-hombre9.jpg';
 // import Image10 from './mujer-hombre10.jpg';
+import DropdownsBb from './button';
 
 const items = [
     {
         name: 'Mujer Maravilla',
-        size: '6-8',
-        price: '$20 mil',
+        size: 'Talla M',
+        price: '$28 mil',
         state: 'Disponible',
         image: Image1
     },
     {
         name: 'Capitana América',
-        size: '8-10',
-        price: '$25 mil',
+        size: 'Talla L',
+        price: '$32 mil',
         state: 'Disponible',
         image: Image2
     },
     {
-        name: 'Flash',
-        size: '8-10',
+        name: 'Gatubella',
+        size: 'Talla S',
         price: '$30 mil',
         state: 'Disponible',
         image: Image3
     },
     {
         name: 'Faraón',
-        size: '8-10',
+        size: 'Talla L',
         price: '$30 mil',
         state: 'Disponible',
         image: Image4
     },
     {
         name: 'Princesa',
-        size: '68 cm',
+        size: 'Talla M',
         price: '$28 mil',
         state: 'Disponible',
         image: Image5
     },
     {
         name: 'Batman',
-        size: '68 cm',
-        price: '$28 mil',
+        size: 'Talla M',
+        price: '$35 mil',
         state: 'Disponible',
         image: Image6
     },
     {
         name: 'Blanca Nieves',
-        size: '68 cm',
-        price: '$28 mil',
+        size: 'Talla M',
+        price: '$35 mil',
         state: 'Disponible',
         image: Image7
     },
@@ -86,6 +87,10 @@ const items = [
 
 export default function WomanMan(){
     return(
-        <DndWrapper items={items}/>
+        <div>
+            <DropdownsBb />
+            <DndWrapper items={items}/>
+        </div>
+        
     );
 }

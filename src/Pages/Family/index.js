@@ -9,28 +9,28 @@ import Image4 from './familia4.jpg';
 const items = [
     {
         name: 'Conejos/as',
-        size: '0-2 meses',
-        price: '$20 mil',
+        size: 'Talla Unica',
+        price: '$90 mil',
         state: 'Disponible',
         image: Image1
     },
     {
         name: 'Abejas',
-        size: '2-4 meses',
-        price: '$25 mil',
+        size: 'Talla Unica',
+        price: '$70 mil',
         state: 'Disponible',
         image: Image2
     },
     {
         name: 'Blanca Nieves',
-        size: '8-10 meses',
-        price: '$30 mil',
+        size: 'Talla Unica',
+        price: '$70 mil',
         state: 'Disponible',
         image: Image3
     },
     {
         name: 'Toy Story',
-        size: '10-1 año',
+        size: 'Talla Unica',
         price: '$30 mil',
         state: 'Disponible',
         image: Image4
@@ -46,6 +46,10 @@ const items = [
 
 export default function Family(){
     return(
-        <DndWrapper items={items}/>
+        
+            
+            <DndWrapper items={items}/>
+        
+        
     );
 }

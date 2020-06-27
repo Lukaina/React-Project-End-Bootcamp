@@ -5,6 +5,11 @@ import Image2 from './bebe2.jpg';
 import Image3 from './bebe3.jpg';
 import Image4 from './bebe4.jpg';
 import Image5 from './bebe5.jpg';
+import DropdownsBb from './button';
+import ButtonCat from './buttonCat';
+
+
+
 
 const items = [
     {
@@ -30,14 +35,14 @@ const items = [
     },
     {
         name: 'Campanita',
-        size: '10-1 año',
+        size: '10-12 meses',
         price: '$30 mil',
         state: 'Disponible',
         image: Image4
     },
     {
         name: 'Pitufo',
-        size: '10-1 año',
+        size: '10-12 meses',
         price: '$28 mil',
         state: 'Disponible',
         image: Image5
@@ -46,6 +51,11 @@ const items = [
 
 export default function Babies(){
     return(
+        <div>
+        <DropdownsBb />
+        <ButtonCat/>
         <DndWrapper items={items}/>
+        
+        </div>
     );
 }
