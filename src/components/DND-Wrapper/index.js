@@ -1,7 +1,7 @@
 import React, { PureComponent } from "react";
 
 import Panel from "../Panel";
-
+import RightPanel from "../Right-Panel"; 
 import "./styles.css";
 
 export default class DndWrapper extends PureComponent {
@@ -45,7 +45,7 @@ export default class DndWrapper extends PureComponent {
           items={leftItems}
           onDrop={this.onDropCard("leftItems", leftItems)}
         />
-        <Panel
+        <RightPanel
           getChildPayload={index => rightItems[index]}
           items={rightItems}
           onDrop={this.onDropCard("rightItems", rightItems)}

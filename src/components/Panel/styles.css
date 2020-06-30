@@ -1,7 +1,8 @@
 .panel {
-    height: 500px;
+    height: 750px;
     border: dashed 2px black;
     width: 300px;
+    background-color:#ccf4f1;
   }
   
   .panel .card {
