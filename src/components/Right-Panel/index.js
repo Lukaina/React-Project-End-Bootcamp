@@ -7,9 +7,9 @@ import "./styles.css";
 
 export default function Panel({ getChildPayload, items, onDrop }) {
   return (
-    <div className="panel">
-      <h4>Selecciona tu disfraz</h4>
-      <p>Todos disponibles</p>
+    <div className="r-panel">
+      <h4>Disfraces seleccionados</h4>
+      <p>Máximo 3</p>
       <Container
         getChildPayload={getChildPayload}
         groupName="panel"

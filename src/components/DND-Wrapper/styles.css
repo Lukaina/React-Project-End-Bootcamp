@@ -1,6 +1,6 @@
 .dnd-wrapper {
     font-family: sans-serif;
-    background-color: lightblue;
+    background-color:white;
     padding: 30px;
     display: flex;
     justify-content: space-evenly;
@@ -24,6 +24,7 @@
   align-self: center;
   margin-bottom: 10px;
   margin-left: 108px;
+  top: 122px;
 }
   
   

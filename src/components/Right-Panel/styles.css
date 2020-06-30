@@ -1,0 +1,30 @@
+.r-panel {
+    height: 750px;
+    width: 300px;
+    background-color: lightskyblue;
+    border-radius: 20px;
+  }
+  
+  .r-panel .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+  
+  .r-panel .smooth-dnd-container {
+    font-family: sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+  h4{
+    font-family: 'Acme', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+  }
