@@ -1,4 +1,5 @@
 import React from 'react';
+import './Form.css';
 
 class Form extends React.Component {
     constructor (props) {
@@ -18,8 +19,8 @@ class Form extends React.Component {
   
         return (
             <div>
+                <form className="form">
                 <h1>Formulario</h1>
-                <form>
                     <label htmlFor="name">Nombre completo:</label>
                     <input
                         id="name"
