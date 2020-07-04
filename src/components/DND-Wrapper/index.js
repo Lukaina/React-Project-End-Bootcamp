@@ -50,7 +50,7 @@ export default function DndWrapper({ items }) {
           /> 
         </div> 
         <div className="dnd-wrapper__btn"> 
-          <button onClick={() => history.push('/registro') }>Continuar</button> 
+          <button onClick={() => history.push('/registro') }>Agendar</button> 
         </div> 
       </div> 
     ); 
