@@ -7,6 +7,7 @@ import Kids from './Pages/Kids';
 import WomanMan from './Pages/Woman-Man';
 import Couples from './Pages/Couples';
 import Family from './Pages/Family';
+import Register from './Pages/Register';
 
 export default function Routes() {
     return(
@@ -31,6 +32,9 @@ export default function Routes() {
                     </Route>
                     <Route exact path="/familia">
                         <Family />
+                    </Route>
+                    <Route exact path="/registro">
+                        <Register />
                     </Route>
                 </Switch>   
             </div>
