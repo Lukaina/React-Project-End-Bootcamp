@@ -1,5 +1,5 @@
 import React from 'react';
-import DndWrapper from '../../components/Carrito-Disfraces';
+import CarritoDisfraces from '../../components/Carrito-Disfraces';
 import Image1 from './parejas1.jpg';
 import Image2 from './parejas2.jpg';
 import Image3 from './parejas3.jpg';
@@ -39,9 +39,14 @@ const items = [
 
 export default function Couples(){
     return(
-        <div>
-        <DropdownsBb />
-        <DndWrapper items={items}/>
-        </div>
+    <div className="page page-couples">
+        <section className="page__dropdowns">
+            <DropdownsBb />
+        </section>
+        <section className="page__content">
+        <CarritoDisfraces items={items}/>
+        </section>
+    </div>
+    
     );
 }

@@ -5,10 +5,12 @@ import { CustomMap } from '../../components/custom-mapa/Mapa';
 class App extends React.Component {
     render () {
         return (
-            <div className="App">
+              <div className="page page-home">
+              <section className="page__content">
                 <CardImages />
                 <CustomMap /> 
-            </div>
+              </section>
+          </div>
         );
     }
 }

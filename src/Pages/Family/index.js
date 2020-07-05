@@ -38,10 +38,10 @@ const items = [
 
 export default function Family(){
     return(
-        
-            
-            <CarritoDisfraces items={items}/>
-        
-        
+        <div className="page page-family">
+        <section className="page__content">
+        <CarritoDisfraces items={items}/>
+        </section>
+    </div> 
     );
 }

@@ -12,7 +12,7 @@ import Register from './Pages/Register';
 export default function Routes() {
     return(
         <Router>
-            <div>
+            <div className="app-container">
                 <Menu />
                 <Switch>
                     <Route exact path="/">

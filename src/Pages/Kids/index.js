@@ -1,5 +1,5 @@
 import React from 'react';
-import DndWrapper from '../../components/Carrito-Disfraces';
+import CarritoDisfraces from '../../components/Carrito-Disfraces';
 import Image1 from './ninx1.jpg';
 import Image2 from './ninx2.jpg';
 import Image3 from './ninx3.jpg';
@@ -87,9 +87,13 @@ const items = [
 
 export default function Kids(){
     return(
-        <div>
-            <DropdownsBb />
-            <DndWrapper items={items}/>
+        <div className="page page-kids">
+            <section className="page__dropdowns">
+                <DropdownsBb />
+            </section>
+            <section className="page__content">
+            <CarritoDisfraces items={items}/>
+            </section>
         </div>
         
     );

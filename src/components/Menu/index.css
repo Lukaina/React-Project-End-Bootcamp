@@ -8,6 +8,7 @@
     -moz-box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);
     box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);
     border-radius: 8px;
+    height: 80px;
 }
 
 .menu {
@@ -16,7 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 20px;
+    padding: 0 40px;
     position: relative;
     height: 100%;
 }
@@ -25,14 +26,14 @@
     list-style-type: none;
     padding: 0;
     height: 100%;
-    margin: 10;
-    margin-right: -100px;
+    display: flex;
+    align-items: center;
+    margin: 0;
 }
 
 .menu__list-item {
     display: inline-block;
     height: 100%;
-    margin-right: -10px;
 }
 
 .menu__list-item:last-child {
@@ -56,6 +57,7 @@
 .menu__link:hover {
     color: #000;
     border-bottom: 4px solid #000;
+    text-decoration: none;
 }
 
 .menu__link--active {
@@ -72,18 +74,24 @@
     justify-content: center;
     font-weight: bold;
     width: 250px;
-    height: 100%;
 }
 
 .icons-contact {
   display: flex;
   justify-content: space-evenly;
   width: 100px;
-  height: 100%;
 }
 
 .icons-contact svg {
-    font-size: 1.8rem;
+    font-size: 2.0rem;
+}
+
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-facebook {
+    color: blue;
 }
 
 

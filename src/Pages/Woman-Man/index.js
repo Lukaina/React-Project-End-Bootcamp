@@ -63,10 +63,15 @@ const items = [
 
 export default function WomanMan(){
     return(
-        <div>
+        <div className="page page-womanman">
+        <section className="page__dropdowns">
             <DropdownsBb />
-            <CarritoDisfraces items={items}/>
-        </div>
+        </section>
+        <section className="page__content">
+        <CarritoDisfraces items={items}/>
+        </section>
+    </div>
+        
         
     );
 }
