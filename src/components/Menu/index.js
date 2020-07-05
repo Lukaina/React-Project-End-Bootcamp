@@ -8,7 +8,7 @@ import {Link} from 'react-router-dom';
 class Menu extends React.Component {
     render () {
         return (
-            <div className="container">
+            <div className="container-menu">
                 <span className="logo">Alquiler de Disfraces⭐</span> 
                 <nav className="menu">
 

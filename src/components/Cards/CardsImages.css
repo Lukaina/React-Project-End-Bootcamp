@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-.cards-images {
+.container {
     display: flex;
     width: 100vw;
     flex-wrap: wrap;
@@ -39,7 +39,7 @@
     border-radius: 50px;
     margin-top: 20px;
     font-family: 'Acme', sans-serif;
-    font-size: 2vw;
+    font-size: 16px;
     font-weight:700;
     padding: 8px;
 }

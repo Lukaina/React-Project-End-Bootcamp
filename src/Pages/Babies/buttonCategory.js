@@ -1,6 +1,6 @@
 import React from 'react';
 import  { Dropdown  }  from  'react-bootstrap' ;
-import '../../components/DND-Wrapper/styles.css';
+import '../../components/Carrito-Disfraces/styles.css';
 
 function Dropdowns(props){
     return(

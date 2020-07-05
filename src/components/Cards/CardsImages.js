@@ -12,7 +12,7 @@ import './CardsImages.css';
 class CardsDisfraz extends React.Component {
     render () {
         return(
-            <div className="cards-images">
+            <div className="container">
                     <CardImage buttonLabel="Bebé" src={img1} alt="Imagen disfraces de bebé." path="/bebes" />
                     <CardImage buttonLabel="Niño" src={img2} alt="Imagen disfraces de niño." path="/ninx" />
                     <CardImage buttonLabel="Niña" src={img3} alt="Imagen disfraces de niña." path="/ninx" />

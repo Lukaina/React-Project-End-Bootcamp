@@ -1,8 +1,8 @@
-.container {
+.container-menu {
     display: flex;
     align-items: center;
-    width: 1200px;
-    margin: 30px auto;
+    width: 100%;
+    margin: 0px auto;
     background-image: linear-gradient(60deg, #a8d7fd 0%, #e4e66f 100%);
     -webkit-box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);
     -moz-box-shadow: 10px 14px 17px -3px rgba(112,112,112,1);

@@ -1,10 +1,9 @@
 import React from 'react';
-import DndWrapper from '../../components/DND-Wrapper';
+import CarritoDisfraces from '../../components/Carrito-Disfraces';
 import Image1 from './familia1.jpg';
 import Image2 from './familia2.jpg';
 import Image3 from './familia3.jpg';
 import Image4 from './familia4.jpg';
-// // import Image5 from './familia5.jpg';
 
 const items = [
     {
@@ -34,21 +33,14 @@ const items = [
         price: '$30 mil',
         state: 'Disponible',
         image: Image4
-    },
-    // {
-    //     name: 'Pitufo',
-    //     size: '10-1 año',
-    //     price: '$28 mil',
-    //     state: 'Disponible',
-    //     image: Image5
-    // },   
+    },   
 ]
 
 export default function Family(){
     return(
         
             
-            <DndWrapper items={items}/>
+            <CarritoDisfraces items={items}/>
         
         
     );

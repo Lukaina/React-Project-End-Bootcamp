@@ -1,5 +1,5 @@
 import React from 'react';
-import DndWrapper from '../../components/DND-Wrapper';
+import DndWrapper from '../../components/Carrito-Disfraces';
 import Image1 from './ninx1.jpg';
 import Image2 from './ninx2.jpg';
 import Image3 from './ninx3.jpg';
@@ -10,7 +10,7 @@ import Image7 from './ninx7.jpg';
 import Image8 from './ninx8.jpg';
 import Image9 from './ninx9.jpg';
 import Image10 from './ninx10.jpg';
-import DropdownsBb from './button';
+import DropdownsBb from './buttonSize';
 
 const items = [
     {

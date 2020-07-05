@@ -1,12 +1,12 @@
 import React from 'react';
-import DndWrapper from '../../components/DND-Wrapper';
+import DndWrapper from '../../components/Carrito-Disfraces';
 import Image1 from './bebe1.jpg';
 import Image2 from './bebe2.jpg';
 import Image3 from './bebe3.jpg';
 import Image4 from './bebe4.jpg';
 import Image5 from './bebe5.jpg';
-import DropdownsBb from './button';
-import ButtonCat from './buttonCat';
+import DropdownsBb from './buttonSize';
+import ButtonCat from './buttonCategory';
 
 
 
