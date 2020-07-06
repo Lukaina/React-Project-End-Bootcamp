@@ -9,7 +9,7 @@ class Menu extends React.Component {
     render () {
         return (
             <div className="container-menu">
-                <span className="logo">Alquiler de Disfraces⭐</span> 
+                <span className="logo">🎉Alquisfraces🎭</span> 
                 <nav className="menu">
 
                     <ul className="menu__list">
