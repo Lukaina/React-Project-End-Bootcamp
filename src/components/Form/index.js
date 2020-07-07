@@ -1,5 +1,7 @@
 import React from 'react';
 import './Form.css';
+import Dateandhour from '../Dateandhour';
+import Sendbutton from'../Sendbutton';
 
 class Form extends React.Component {
     constructor (props) {
@@ -22,6 +24,7 @@ class Form extends React.Component {
                 <form className="form">
                 <h1>Formulario</h1>
                     <label htmlFor="name">Nombre completo:</label>
+                    <br/>
                     <input
                         id="name"
                         type="text"
@@ -29,7 +32,9 @@ class Form extends React.Component {
                         value={name}
                         onChange={(e) => this.setState({ name: e.target.value })} 
                     />
+                    <br/>
                     <label htmlFor="mail">Correo Electrónico:</label>
+                    <br/>
                     <input
                         id="mail"
                         type="text"
@@ -37,6 +42,7 @@ class Form extends React.Component {
                         value={mail}
                         onChange={(e) => this.setState({ name: e.target.value })} 
                     />
+                    <br/>
                     <label htmlFor="document">Tipo de documento:</label>
                     <select
                         id="document"
@@ -60,21 +66,37 @@ class Form extends React.Component {
                         value={documentNumber}
                         onChange={(e) => this.setState({ name: e.target.value })} 
                     />
-                    <label htmlFor="hour">Seleccione la hora:</label>
+                    <br/>
+                    <label htmlFor="date">Fecha de medición:</label>
+                    <Dateandhour/>
+                    <br/>
+                    <label htmlFor="document">Hora de medición:</label>
+                    <br/>
                     <select
-                        id="hour"
-                        type="hour"
-                        value={hour}
+                        id="document"
+                        type="text"
+                        value={document}
                         onChange={(e) => this.setState({ date: e.target.value })} 
                     >
-                        <option>8 - 10am</option>
-                        <option>10 - 12md</option>
-                        <option>12 - 2pm</option>
-                        <option>2 - 4pm</option>
-                        <option>4 - 6pm</option>
-                        <option>6 - 8pm</option>
-                        <option>8 - 10pm</option>
+                        <option>10:00 am </option>
+                        <option>10:30 am</option>
+                        <option>11:00 am</option>
+                        <option>11:30 am</option>
+                        <option>12:00 m</option>
+                        <option>12:30 pm</option>
+                        <option>2:00 pm</option>
+                        <option>2:30 pm</option>
+                        <option>3:00 pm</option>
+                        <option>3:30 pm</option>
+                        <option>4:00 pm</option>
+                        <option>4:30 pm</option>
+                        <option>5:00 pm</option>
+                        <option>5:30 pm</option>
+                        <option>6:00 pm</option>
                     </select>
+                    <br/>
+                    <br/>
+                    <Sendbutton/>
                 </form>
             </div>
         )
