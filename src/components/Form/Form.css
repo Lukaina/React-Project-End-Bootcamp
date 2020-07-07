@@ -11,12 +11,12 @@
     font-size: 14px;
     font-weight: bold;
     width: 400px;
-    height: 500px;
+    height: 550px;
     border: 2px solid rebeccapurple;
     color: #000;
-    padding: 40px;
+    padding: 20px 120px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 50px;
     border-radius: 5px;
     box-shadow: 3px 3px 10px #000;
@@ -25,7 +25,7 @@
 .form h1 {
     text-align: center;
     font-family: 'Acme', sans-serif;
-    font-size: 50px;
+    font-size: 36px;
     text-shadow: -2px 0 #FFF, 0 2px #FFF,
     2px 0 black, 0 -2px #FFF;
 }

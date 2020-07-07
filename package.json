@@ -17,6 +17,8 @@
     "mapbox-gl": "^1.11.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
+    "react-bootstrap-date-picker": "^5.1.0",
+    "react-datepicker": "^3.0.0",
     "react-dom": "^16.13.1",
     "react-google-location": "^1.2.2",
     "react-native-ui-xg": "0.0.6",
