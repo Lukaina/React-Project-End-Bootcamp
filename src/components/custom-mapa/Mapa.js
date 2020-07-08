@@ -7,9 +7,9 @@ const  TOKEN = 'pk.eyJ1IjoibHVrYWluYSIsImEiOiJja2JkN216YjIwMHRxMnNtdHRxMzFia3NiI
 mapboxgl.accessToken = TOKEN;
 
 const state = {
-  lng: -75.4041900,
-  lat:  1.1032300,
-  zoom: 4
+  lng: -75.561479,
+  lat:  6.3126405,
+  zoom: 17
 };
 
 export function CustomMap () {
@@ -25,7 +25,7 @@ export function CustomMap () {
   }, []);
   return(
     <div className="custom-map" ref={ref}>
-  
+        
     </div>
 
   );
