@@ -17,14 +17,14 @@ class Enviar extends React.Component {
     render () {
         return (
             <div>
-            <Button onClick= {()=>{this.handleModal()}}>Enviar</Button>
+            <Button className="button-modal" onClick= {()=>{this.handleModal()}}>Enviar</Button>
             <Modal show = {this.state.show} onHide={()=>this.handleModal()}>
             <Modal.Header closeButton></Modal.Header>
             <Modal.Body className="textstyle">
             🎉 Su reserva se guardó con éxito 🎉
             </Modal.Body>
             <Modal.Footer>
-            <Button onClick= {()=>{this.handleModal()}}>
+            <Button className="button-modal" onClick= {()=>{this.handleModal()}}>
             ¡Genial!
             </Button>
             </Modal.Footer>
