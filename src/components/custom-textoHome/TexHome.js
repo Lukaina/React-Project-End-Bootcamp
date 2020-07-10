@@ -4,7 +4,9 @@ class Text extends React.Component {
     render() {
             return (
                 <h3> 
+
                      Nuestra Ubicación <br></br>
+
                         <br></br>
                         Calle 23#55-94 <br></br>
                         Bello Cabañitas <br></br>
@@ -12,6 +14,7 @@ class Text extends React.Component {
                         Lunes a Viernes desde <br></br>
                         16:00 hasta las 21:00 <br></br>
                         Sábados, Domingos y Festivos <br></br>
+
                         Desde 14:00 hasta las 20:00 
                 </h3>
             );
