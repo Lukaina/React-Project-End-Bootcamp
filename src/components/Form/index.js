@@ -15,9 +15,15 @@ class Form extends React.Component {
         }
       }
 
+    //   handleForm(){
+    //     const name = ;
+    //     const 
+    //   }
+
     render () {
-        const { name, mail, document, documentNumber, hour } = this.state
-        console.log({name, mail, document, documentNumber, hour})
+        
+        // const { name, mail, document, documentNumber, hour } = this.state
+        // console.log({name, mail, document, documentNumber, hour})
   
         return (
             <div>
@@ -29,8 +35,8 @@ class Form extends React.Component {
                         id="name"
                         type="text"
                         placeholder="Nombre" 
-                        value={name}
-                        onChange={(e) => this.setState({ name: e.target.value })} 
+                        // value={name}
+                        // onChange={(e) => this.setState({ name: e.target.value })} 
                     />
                     <br/>
                     <label htmlFor="mail">Correo Electrónico:</label>
@@ -39,16 +45,16 @@ class Form extends React.Component {
                         id="mail"
                         type="text"
                         placeholder="ejemplo@mail.com" 
-                        value={mail}
-                        onChange={(e) => this.setState({ name: e.target.value })} 
+                        // value={mail}
+                        // onChange={(e) => this.setState({ name: e.target.value })} 
                     />
                     <br/>
                     <label htmlFor="document">Tipo de documento:</label>
                     <select
                         id="document"
                         type="text"
-                        value={document}
-                        onChange={(e) => this.setState({ date: e.target.value })} 
+                        // value={document}
+                        // onChange={(e) => this.setState({ date: e.target.value })} 
                     >
                         <option>RC - Registro Civil</option>
                         <option>TI - Tarjeta de Identidad</option>
@@ -63,8 +69,8 @@ class Form extends React.Component {
                         id="documentNumber"
                         type="text"
                         placeholder="Número documento" 
-                        value={documentNumber}
-                        onChange={(e) => this.setState({ name: e.target.value })} 
+                        // value={documentNumber}
+                        // onChange={(e) => this.setState({ name: e.target.value })} 
                     />
                     <br/>
                     <label htmlFor="date">Fecha de medición:</label>
@@ -75,8 +81,8 @@ class Form extends React.Component {
                     <select
                         id="document"
                         type="text"
-                        value={document}
-                        onChange={(e) => this.setState({ date: e.target.value })} 
+                        // value={document}
+                        // onChange={(e) => this.setState({ date: e.target.value })} 
                     >
                         <option>10:00 am </option>
                         <option>10:30 am</option>
@@ -97,6 +103,7 @@ class Form extends React.Component {
                     <br/>
                     <br/>
                     <Sendbutton/>
+                    {/* <Button className="button-modal" onClick= {()=>{this.handleForm()}}>Enviar</Button> */}
                 </form>
             </div>
         )

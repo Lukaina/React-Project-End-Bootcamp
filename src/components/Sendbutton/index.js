@@ -24,9 +24,10 @@ class Enviar extends React.Component {
             🎉 Su reserva se guardó con éxito 🎉
             </Modal.Body>
             <Modal.Footer>
-            <Button className="button-modal" onClick= {()=>{this.handleModal()}}>
+                <a href="/" className="button-modal">¡Genial!</a>
+            {/* <Button className="button-modal" onClick= {()=>{this.handleModal()}}>
             ¡Genial!
-            </Button>
+            </Button> */}
             </Modal.Footer>
             </Modal>
             </div>
