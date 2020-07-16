@@ -14,9 +14,12 @@
     border-radius: 10px;
     width: 100%;
     height: 50px;
+    text-decoration: none;
+    text-align: center;
 }
 
 .button-modal:hover {
+    text-decoration: none;
     border: 2px solid black;
     animation:slidebg 2s linear infinite;
     -webkit-animation:slidebg 2s linear infinite;
