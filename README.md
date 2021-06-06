@@ -29,4 +29,7 @@ Use the package manager [npm](https://www.npmjs.com/) to install application.
 - Friendships with David Higuita and Ronal Ocampo
 
 
+Made with ❤ by **_Las Adas_**
+
+
 
